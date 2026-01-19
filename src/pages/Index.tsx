@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Stretch, Arm, Heart } from 'lucide-react';
+import { Move, Activity, Heart } from 'lucide-react';
 import { RoutineStep } from '@/components/RoutineStep';
 import { Disclaimer } from '@/components/Disclaimer';
 import { MadeWithApplaa } from '@/components/made-with-applaa';
@@ -11,13 +11,13 @@ const ROUTINE_STEPS = [
   {
     id: 1,
     title: 'Reach & Stretch',
-    icon: <Stretch className="w-10 h-10 text-orange-500" />,
+    icon: <Move className="w-10 h-10 text-orange-500" />,
     description: 'Gently reach arms overhead, side to side',
   },
   {
     id: 2,
     title: 'Arm Circles',
-    icon: <Arm className="w-10 h-10 text-amber-500" />,
+    icon: <Activity className="w-10 h-10 text-amber-500" />,
     description: 'Slow circles forward, then back',
   },
   {
